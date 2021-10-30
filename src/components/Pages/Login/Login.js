@@ -92,7 +92,7 @@ const HandeLogin=()=>{
 
 
 				<p className="mt-8"> Dont have an account? <NavLink className="cursor-pointer text-sm text-green-400" to='/register'> Join today</NavLink></p>
-				<p className="mt-8"> Dont have an account? <NavLink className="cursor-pointer text-sm text-green-400" to='/register'> Join tsdfsdfsdfoday</NavLink></p>
+				<p className="mt-8"> Forgot your password? <NavLink className="cursor-pointer text-sm text-green-400" to='/forgotpassword'> Reset Password</NavLink></p>
 			</div>
 		</div>
 	</div>

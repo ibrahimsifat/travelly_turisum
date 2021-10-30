@@ -9,6 +9,7 @@ import SignUp from './components/Pages/SignUp/SignUp';
 import AuthProvider from './components/Pages/context/AuthProvider';
 import NotFound from '../src/components/Pages/NotFound/NotFound'
 import PrivateRoute from './components/Pages/PrivateRoute/PrivateRoute';
+import ForgotPassword from './components/Pages/ForgotPassword/ForgotPassword';
 function App() {
   return (
   <AuthProvider>
@@ -23,6 +24,9 @@ function App() {
     </Route>
     <Route  path='/register'>
       <SignUp></SignUp>
+    </Route>
+    <Route  path='/forgotpassword'>
+      <ForgotPassword></ForgotPassword>
     </Route>
     <PrivateRoute path='/serviceDetails/:serviceId'>
       <ServiceDetails></ServiceDetails>

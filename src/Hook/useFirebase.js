@@ -44,7 +44,7 @@ const signInUsingGithub =()=>{
         }
         
     })
- },[])
+ },[auth])
 
 
  const createNewUser=()=>{
