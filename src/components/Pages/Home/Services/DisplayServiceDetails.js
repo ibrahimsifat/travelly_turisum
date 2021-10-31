@@ -20,7 +20,7 @@ const DisplayServiceDetails = ({match}) => {
 
 <div className=" mx-auto px-4 sm:px-6 lg:px-8 col-span-2">
 <div className="my-8 px-6 h-96 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-          <img className='mb-8' src={img} alt="" />
+          <img className='my-16' src={img} alt="" />
             
         </div>
     <div className="pricing-box max-w-lg  mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none ">
