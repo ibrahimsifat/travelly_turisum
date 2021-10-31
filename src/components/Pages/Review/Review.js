@@ -1,17 +1,15 @@
 import React, { useRef, useState } from 'react';
-import './Slider.css'
+import '../../../App.css'
 
 
 
-const Img1='https://i.ibb.co/YXrR6yC/New-Project-4.jpg'
-const Img2='https://i.ibb.co/84vxV56/New-Project.jpg'
-const Img3='https://i.ibb.co/ZxmNTG4/New-Project-3.jpg'
-const Img4='https://i.ibb.co/n3L6mgy/New-Project-2.jpg'
-const Img5='https://i.ibb.co/BKjL6T0/New-Project-1.jpg'
-const colors = [Img1,Img2,Img3,Img4,Img5];
+const Img1='https://i.ibb.co/w6963qN/slider-10-1.jpg'
+const Img2='https://i.ibb.co/dG7sy6R/slider-10-2.jpg'
+
+const colors = [Img1,Img2];
 const delay = 2500;
 
-const Banner = () => {
+const Review = () => {
     const [index, setIndex] = useState(0);
     const timeoutRef = useRef(null);
   
@@ -38,7 +36,7 @@ const Banner = () => {
   
     return (
       <div>
-        <div className="slideshow">
+        <div className="slideshow py-16">
         <div
           className="slideshowSlider"
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
@@ -72,30 +70,14 @@ const Banner = () => {
       
     <div className="grid relative -top-32 z-10">
   
-  <Section></Section>
+
 
 </div>
       </div>
     );
 };
 
-const Section=()=>{
-  return(
-    <div className="opacity-20 p-2 px-10 text-center cursor-pointer">
-      <div className="py-7  rounded overflow-hidden shadow-lg hover:bg-white transition duration-500  bg-white">
-          <div className="">
-              {/* <i className="fa fa-spa" style="font-size:48px;"></i> */}
-              
-              <div className=" py-4 opacity-100">
-                  <div className="space-y-5 ">
-                      
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  )
-}
-export default Banner;
+
+export default Review;
 
 

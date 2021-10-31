@@ -80,10 +80,10 @@ const HandeLogin=()=>{
         </div>
 						
 		<button type='submit' onClick={HandeLogin}
-		className="mt-4 mb-3 w-full bg-indigo-500 hover:bg-indigo-400 text-white py-2 rounded-md transition duration-100">Login now</button>
+		className="mt-4 mb-3 w-full bg-blue-900 hover:bg-blue-700 text-white py-2 rounded-md transition duration-100">Login now</button>
 							
 				</from>
-				<p className=' text-xl text-indigo-400 text-center'>-- or --</p>
+				<p className=' text-xl text-blue-700 text-center'>-- or --</p>
 				<div className='mt-4 flex '>
 					 <img onClick={googleHandeLogin} className='zoom-image duration-500 w-12 mx-3' src={Googleicon} alt="" />
 					 <img onClick={githubHandeLogin} className='duration-500 w-12 h-12 mx-3 zoom-image' src={Githubicon} alt="" />
@@ -91,8 +91,8 @@ const HandeLogin=()=>{
 				</div>
 
 
-				<p className="mt-8"> Dont have an account? <NavLink className="cursor-pointer text-sm text-indigo-400" to='/register'> Join today</NavLink></p>
-				<p className="mt-8"> Forgot your password? <NavLink className="cursor-pointer text-sm text-indigo-400" to='/forgotpassword'> Reset Password</NavLink></p>
+				<p className="mt-8"> Dont have an account? <NavLink className="cursor-pointer text-sm text-blue-700" to='/register'> Join today</NavLink></p>
+				<p className="mt-8"> Forgot your password? <NavLink className="cursor-pointer text-sm text-blue-700" to='/forgotpassword'> Reset Password</NavLink></p>
 			</div>
 		</div>
 	</div>

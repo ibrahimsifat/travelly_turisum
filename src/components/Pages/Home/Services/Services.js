@@ -17,7 +17,10 @@ const Services = () => {
         }
 console.log(services);
     return (
-        <div className='container lg:grid-cols-3 my-16 grid md:grid-cols-2 mx-auto'>
+       <div className="container">
+            <h1 className='text-4xl font-semibold text-blue-700 text-center'>Popular Tours</h1>
+            <div className='container lg:grid-cols-3 my-16 grid md:grid-cols-2 mx-auto'>
+           
            {
                services.map(service=><DisplayServices2
                service={service}
@@ -29,6 +32,7 @@ console.log(services);
 
             
         </div>
+       </div>
     );
 };
 

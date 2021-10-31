@@ -13,7 +13,7 @@ const NotFound = () => {
 <img src="'https://flipstore.withun.link/identity/Group%201.svg'" alt="" />
             </div>
             <div className="mb-10 md:mb-20 text-gray-600 font-light">
-                <h1 className="font-black uppercase text-3xl lg:text-5xl text-indigo-700 mb-10">Sorry we couldn't find this page.</h1>
+                <h1 className="font-black uppercase text-3xl lg:text-5xl text-blue-700 mb-10">Sorry we couldn't find this page.</h1>
                 <p className='md:text-2xl'>But dont worry, you can find plenty of other things on our homepage.</p>
 
             </div>

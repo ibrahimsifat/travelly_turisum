@@ -33,7 +33,7 @@ const DisplayServiceDetails = ({match}) => {
             </p>
             <div className="mt-8">
                 <div className="flex items-center">
-                    <h4 className="flex-shrink-0 pr-4 bg-white dark:bg-gray-800 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                    <h4 className="flex-shrink-0 pr-4 bg-white dark:bg-gray-800 text-sm leading-5 tracking-wider font-semibold uppercase text-blue-600">
                         What&#x27;s included
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200">
@@ -96,7 +96,7 @@ const DisplayServiceDetails = ({match}) => {
             </div>
             <div className="mt-8">
                 <div className="flex items-center">
-                    <h4 className="flex-shrink-0 pr-4 bg-white text-sm dark:bg-gray-800 leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                    <h4 className="flex-shrink-0 pr-4 bg-white text-sm dark:bg-gray-800 leading-5 tracking-wider font-semibold uppercase text-blue-600">
                         &amp; What&#x27;s not
                     </h4>
                 </div>
@@ -123,7 +123,7 @@ const DisplayServiceDetails = ({match}) => {
       <button
          
          onClick={()=>handleAddCartBtn(match)}
-            className="mx-auto px-6 mb-10 block py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-indigo-500 hover:bg-indigo-600 hover:shadow-lg focus:outline-none"
+            className="mx-auto px-6 mb-10 block py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-blue-900 hover:bg-blue-600 hover:shadow-lg focus:outline-none"
           >
             Book Now
           </button>

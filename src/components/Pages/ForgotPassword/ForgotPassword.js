@@ -14,14 +14,14 @@ const ForgotPassword = () => {
       <form className="mb-4">
         <div className="mb-6">
           <label htmlFor="email" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-          <input type="email" name="email" id="email" placeholder="Your email address" className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+          <input type="email" name="email" id="email" placeholder="Your email address" className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-100 focus:border-blue-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
         </div>
         <div className="mb-6">
-          <button type="button" className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md hover:bg-indigo-600 focus:outline-none duration-100 ease-in-out">Send reset link</button>
+          <button type="button" className="w-full px-3 py-4 text-white bg-blue-900 rounded-md hover:bg-blue-600 focus:outline-none duration-100 ease-in-out">Send reset link</button>
         </div>
         <p className="text-sm text-center text-gray-400">
           Don&#x27;t have an account yet? 
-          <a href="#!" className="font-semibold text-indigo-500 focus:text-indigo-600 focus:outline-none focus:underline">Sign up</a>.
+          <a href="#!" className="font-semibold text-blue-900 focus:text-blue-600 focus:outline-none focus:underline">Sign up</a>.
         </p>
       </form>
      

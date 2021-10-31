@@ -10,7 +10,7 @@ const {handleremoveitem}=props
         <div>
      <div class="grid grid-cols-12 gap-2">
     <div class="col-span-12 sm:col-span-12 ">
-      <div class="bg-indigo-100 py-2 px-4 shadow-md rounded-lg my-4 mx-4">
+      <div class="bg-blue-100 py-2 px-4 shadow-md rounded-lg my-4 mx-4">
         <div class=" flex justify-between my-2 px-4 items-center">
             <div class="text-lg font-semibold"> 
               <p>{title}</p>

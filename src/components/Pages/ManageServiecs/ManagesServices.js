@@ -45,7 +45,7 @@ const DisplayManageService=(props)=>{
     const {title,price,_id}=props.service
     const {handleDelete}=props
     return(
-        <div class=" md:w-8/12 mx-auto px-5 bg-indigo-100 py-2 px-4 mx-5 shadow-md rounded-lg my-4">
+        <div class=" md:w-8/12 mx-auto px-5 bg-blue-100 py-2 px-4 mx-5 shadow-md rounded-lg my-4">
         <div class=" flex justify-between my-2 px-4 items-center">
             <div class="text-lg font-semibold"> 
               <p>{title}</p>
@@ -53,10 +53,10 @@ const DisplayManageService=(props)=>{
               
             </div>
             <div>
-            <button className=' mr-5 text-indigo-600 transition duration-500 ease-in-out transform  hover:scale-125 ' 
+            <button className=' mr-5 text-blue-600 transition duration-500 ease-in-out transform  hover:scale-125 ' 
             onClick={()=>handleDelete(_id)}
             >{editICon}</button>
-            <button className='text-indigo-600 transition duration-500 ease-in-out transform  hover:scale-125 ' 
+            <button className='text-blue-600 transition duration-500 ease-in-out transform  hover:scale-125 ' 
             onClick={()=>handleDelete(_id)}
             >{deleteICon}</button>
             

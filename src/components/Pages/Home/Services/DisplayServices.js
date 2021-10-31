@@ -18,7 +18,7 @@ const {handledetails}=props
             <img className="w-full transition duration-700 ease-in-out group-hover:opacity-100 group-hover:transform group-hover:scale-150" src={img} alt="" />
             <div className="flex justify-center">
                 <div onClick={()=>handledetails(_id)} className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                    <button className="px-4 m-1 py-1 text-5xl  text-gray-400 transition duration-500 ease-in-out hover:text-indigo-300">
+                    <button className="px-4 m-1 py-1 text-5xl  text-gray-400 transition duration-500 ease-in-out hover:text-blue-300">
                       {cartIcon}
                      
                     </button>
@@ -28,7 +28,7 @@ const {handledetails}=props
             </div>
         </div>
         <div className="px-4 py-3  card_hover">
-            <a href="# d" className=""><h1 className="text-gray-800 font-semibold text-lg hover:text-indigo-400 transition duration-300 ease-in-out">{title}</h1></a>
+            <a href="# d" className=""><h1 className="text-gray-800 font-semibold text-lg hover:text-blue-700 transition duration-300 ease-in-out">{title}</h1></a>
             <div className="flex py-2">
             <div className="flex ">
             
@@ -39,7 +39,7 @@ const {handledetails}=props
             <GrayStar></GrayStar>
           </div>
                 <p className="mr-2 text-xs text-gray-600">$45.00</p>
-                    <p className="mr-2 text-xs text-indigo-600 line-through">$15.00</p>
+                    <p className="mr-2 text-xs text-blue-600 line-through">$15.00</p>
             </div>
             
         </div>

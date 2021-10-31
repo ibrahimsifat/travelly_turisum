@@ -80,7 +80,7 @@ const AddService = () => {
      
 
     
-      <input  class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-indigo-500 hover:bg-indigo-600 hover:shadow-lg focus:outline-none" type="submit" value='Add Service' />
+      <input  class="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg shadow outline-none bg-blue-900 hover:bg-blue-600 hover:shadow-lg focus:outline-none" type="submit" value='Add Service' />
     </form>
   </div>
         </div>

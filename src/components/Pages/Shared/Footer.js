@@ -12,7 +12,7 @@ import insImg6 from '../../../img/instagram6.jpg'
 const Footer = () => {
     return (
         <div className='mt-auto -block'>
-       <div className="container mx-auto bg-indigo-500 rounded-t-2xl p-6  md:w-6/12 ">
+       <div className="container mx-auto bg-blue-900 rounded-t-2xl p-6  md:w-6/12 ">
 		<form>
 			<h1 className="text-center font-bold text-white md:text-2xl text-lg mb-5">Subscribe To Our Newsletter For Latest Update</h1>
 				
@@ -20,7 +20,7 @@ const Footer = () => {
 					<input className="text-base text-gray-400 md:flex-grow outline-none px-2 " type="text" placeholder="enter your email" />
 					<div className="flex items-center rounded-lg  mx-auto ">
 						
-						<button className="bg-indigo-500 hover:bg-indigo-700 text-white text-base rounded-lg px-4 py-2 font-thin">SUBSCRIBE</button>
+						<button className="bg-blue-900 hover:bg-blue-700 text-white text-base rounded-lg px-4 py-2 font-thin">SUBSCRIBE</button>
 					</div>
 				</div>
 		</form>

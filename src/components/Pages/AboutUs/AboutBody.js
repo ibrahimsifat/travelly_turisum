@@ -13,7 +13,7 @@ const AboutBody = () => {
         <div className='container mx-auto my-16'>
           <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
     <div class="text-center pb-12">
-        <h2 class="text-base font-bold text-indigo-600">
+        <h2 class="text-base font-bold text-blue-600">
         OUR TRAVEL AGENTS
         </h2>
         <h1 class="font-bold text-3xl md:text-4xl lg:text-4xl font-heading text-gray-900">

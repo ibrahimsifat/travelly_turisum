@@ -84,7 +84,7 @@ const {
                             
                             <button type='submit'
                           onClick={handleNewUser}
-                            className="block w-full max-w-xs mx-auto bg-indigo-400 hover:bg-indigo-500 focus:bg-indigo-500 text-white duration-500 rounded-lg px-3 py-3 font-semibold">REGISTER NOW</button>
+                            className="block w-full max-w-xs mx-auto bg-blue-700 hover:bg-blue-900 focus:bg-blue-900 text-white duration-500 rounded-lg px-3 py-3 font-semibold">REGISTER NOW</button>
                             
                         </div>
                     </div>
