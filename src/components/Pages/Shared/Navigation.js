@@ -1,4 +1,4 @@
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import {  NavLink } from "react-router-dom";
@@ -6,6 +6,7 @@ import useAuth from '../../../Hook/useAuth'
 import logo from '../../../img/logo.png'
 
 const userIcon=<FontAwesomeIcon icon ={faUser}/>
+const menuIcon=<FontAwesomeIcon icon ={faBars}/>
 const  Navigation=({ fixed}) =>{
   // const {cartService,setCatService}=useState({})
   
@@ -56,7 +57,7 @@ const {user,logOut}=useAuth()
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars">dfs</i>
+              <i className="fas fa-bars">{menuIcon}</i>
             </button>
           </div>
           <div
@@ -80,9 +81,16 @@ const {user,logOut}=useAuth()
                 >
                About Us
                 </NavLink>
+                <NavLink to='/messgae'
+
+                  className="px-3 py-2 flex hover:text-blue-700 items-center text-sm uppercase font-bold leading-snug   hover:text-blue-500"
+                  href="#pablo"
+                >
+               Contact
+                </NavLink>
                
 {
-  user.email && <div className='flex'> 
+  user.email && <div className='md:flex '> 
     
     <NavLink  to='/mybooking'
                   className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug   hover:text-blue-500"

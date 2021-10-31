@@ -14,6 +14,9 @@ import MyBooking from './components/Pages/MyBooking/MyBooking';
 import AboutUs from './components/Pages/AboutUs/AboutUs';
 import AddService from './components/Pages/AddService/AddService';
 import ManageServices from './components/Pages/ManageServiecs/ManagesServices';
+import MassageUs from './components/Pages/ContactUs/MassageUs';
+import Payment from '../src/components/Pages/Payment/Payment'
+import Congratulations from './components/Pages/Congratulations/Congratulations';
 function App() {
   return (
   <AuthProvider>
@@ -32,15 +35,24 @@ function App() {
     <Route  path='/register'>
       <SignUp></SignUp>
     </Route>
-    <Route  path='/addservice'>
+    <Route  path='/messgae'>
+      <MassageUs></MassageUs>
+    </Route>
+    <PrivateRoute  path='/addservice'>
       <AddService></AddService>
-    </Route>
-    <Route  path='/manageservices'>
+    </PrivateRoute>
+    <PrivateRoute  path='/Congratulations'>
+      <Congratulations></Congratulations>
+    </PrivateRoute>
+    <PrivateRoute  path='/payment'>
+      <Payment></Payment>
+    </PrivateRoute>
+    <PrivateRoute  path='/manageservices'>
       <ManageServices></ManageServices>
-    </Route>
-    <Route  path='/forgotpassword'>
+    </PrivateRoute>
+    <PrivateRoute  path='/forgotpassword'>
       <ForgotPassword></ForgotPassword>
-    </Route>
+    </PrivateRoute>
     <PrivateRoute path='/serviceDetails/:serviceId'>
       <ServiceDetails></ServiceDetails>
     </PrivateRoute>

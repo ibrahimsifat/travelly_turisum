@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink,useHistory,useLocation } from 'react-router-dom';
+import SignImg from '../../../img/register.png'
 import useAuth from '../../../Hook/useAuth';
 ;
 
@@ -38,11 +39,11 @@ const {
             
 <div className="min-w-screen min-h-screen flex flex-col items-center justify-center px-5 py-5">
     <h1 className=' mb-8 text-red-700'>{error}</h1>
-    <div className=" box-shadow rounded-3xl shadow-xl w-full overflow-hidden" >
+    <div className=" box-shadow rounded-3xl  w-full overflow-hidden" >
         <div className="md:flex w-full items-center">
-            <div className="hidden md:block w-1/2 bg-white-500 py-10 px-10">
+            <div className="hidden md:block  bg-white-500 py-10 px-10">
           
-          <img src={'SignImg'} alt="" />
+          <img src={SignImg} alt="" />
 
            </div>
             <from className="w-full md:w-1/2 py-10 px-5 md:px-10">

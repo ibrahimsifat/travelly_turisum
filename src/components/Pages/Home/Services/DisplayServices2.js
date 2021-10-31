@@ -9,12 +9,12 @@ const DisplayService2 = (props) => {
   const {title,img,price,description,_id}=props.service
 const {handledetails}=props
     return (
-      <div class="md:w-80 py-5 mx-auto px-3">
-      <div class="bg-white relative shadow-lg card-size hover:shadow-xl transition duration-500 rounded-lg">
-        <img class="rounded-t-lg" src={img} alt="" />
-        <div class="py-6 px-8 rounded-lg bg-white">
-          <h1 class=" h-10 text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">{title}</h1>
-          <p class="text-gray-700 tracking-wide">{description.slice(0,50)}</p>
+      <div className="md:w-80 py-5 mx-auto px-3">
+      <div className="bg-white relative shadow-lg card-size hover:shadow-xl transition duration-500 rounded-lg">
+        <img className="rounded-t-lg" src={img} alt="" />
+        <div className="py-6 px-8 rounded-lg bg-white">
+          <h1 className=" h-10 text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">{title}</h1>
+          <p className="text-gray-700 tracking-wide">{description.slice(0,50)}</p>
           <div className="flex my-3">
             
             <YellowStar></YellowStar>
@@ -24,12 +24,12 @@ const {handledetails}=props
             <GrayStar></GrayStar>
           </div>
       <div className="flex justify-between items-center">
-      <button onClick={()=>handledetails(_id)} class="mt-2 py-2 px-4 text-white bg-blue-900  font-bold rounded-lg shadow-md hover:bg-blue-600 transition duration-300">{cartPlus} <span className='pl-1'>Book</span></button>
+      <button onClick={()=>handledetails(_id)} className="mt-2 py-2 px-4 text-white bg-blue-900  font-bold rounded-lg shadow-md hover:bg-blue-600 transition duration-300">{cartPlus} <span className='pl-1'>Book</span></button>
          
       </div>
         </div>
-        <div class="absolute top-2 right-2 py-2 px-4 bg-white rounded-lg">
-          <span class="text-md">${price}</span>
+        <div className="absolute top-2 right-2 py-2 px-4 bg-white rounded-lg">
+          <span className="text-md">${price}</span>
         </div>
       </div>
     </div>

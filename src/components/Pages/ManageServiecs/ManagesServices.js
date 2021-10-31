@@ -45,11 +45,11 @@ const DisplayManageService=(props)=>{
     const {title,price,_id}=props.service
     const {handleDelete}=props
     return(
-        <div class=" md:w-8/12 mx-auto px-5 bg-blue-100 py-2 px-4 mx-5 shadow-md rounded-lg my-4">
-        <div class=" flex justify-between my-2 px-4 items-center">
-            <div class="text-lg font-semibold"> 
+        <div className=" md:w-8/12 mx-auto px-5 bg-blue-100 py-2 px-4 mx-5 shadow-md rounded-lg my-4">
+        <div className=" flex justify-between my-2 px-4 items-center">
+            <div className="text-lg font-semibold"> 
               <p>{title}</p>
-              <p class="text-gray-700 text-base">{price}</p>
+              <p className="text-gray-700 text-base">{price}</p>
               
             </div>
             <div>
