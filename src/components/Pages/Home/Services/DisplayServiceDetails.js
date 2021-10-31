@@ -19,11 +19,11 @@ const DisplayServiceDetails = ({match}) => {
 <div className="container mx-auto my-16">
 
 <div className=" mx-auto px-4 sm:px-6 lg:px-8 col-span-2">
-<div className="py-8 px-6 h-96 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-          <img src={img} alt="" />
+<div className="my-8 px-6 h-96 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+          <img className='mb-8' src={img} alt="" />
             
         </div>
-    <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none ">
+    <div className="pricing-box max-w-lg  mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none ">
         <div className="bg-white dark:bg-gray-800 px-6 py-8 lg:flex-shrink-1 lg:p-12">
             <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
                 {title}
