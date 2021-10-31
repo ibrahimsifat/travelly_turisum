@@ -70,7 +70,7 @@ const Banner = () => {
       
       
       
-    <div class="grid relative -top-32 z-10">
+    <div className="grid relative -top-32 z-10">
   
   <Section></Section>
 
@@ -81,15 +81,15 @@ const Banner = () => {
 
 const Section=()=>{
   return(
-    <div class="p-2 px-10 text-center cursor-pointer">
-      <div class="py-7  rounded overflow-hidden shadow-lg hover:bg-white transition duration-500  bg-white">
-          <div class="">
-              {/* <i class="fa fa-spa" style="font-size:48px;"></i> */}
+    <div className="p-2 px-10 text-center cursor-pointer">
+      <div className="py-7  rounded overflow-hidden shadow-lg hover:bg-white transition duration-500  bg-white">
+          <div className="">
+              {/* <i className="fa fa-spa" style="font-size:48px;"></i> */}
               
-              <div class=" py-4">
-                  <div class="space-y-5">
-                      <div class="font-bold text-xl mb-2">Spa</div>
-                      <p class="text-gray-700 text-base">
+              <div className=" py-4">
+                  <div className="space-y-5">
+                      <div className="font-bold text-xl mb-2">Spa</div>
+                      <p className="text-gray-700 text-base">
                           Todo tipo de masajes y técnicas
                       </p>
                   </div>

@@ -1,18 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router';
+import useServices from '../../../../Hook/useServices';
 import DisplayServiceDetails from './DisplayServiceDetails';
 
 const ServiceDetails = () => {
-const [service,setService]=useState([])
-useEffect(()=>{
-fetch('https://gentle-everglades-16293.herokuapp.com/services')
-.then(res=>res.json())
-.then(data=>setService(data))
-},[])
+const [services]=useServices()
+
 const {serviceId}=useParams()
-const matched=service.filter(sr=>sr._id===serviceId)
-console.log(serviceId);
-console.log(matched);
+const matched=services.filter(sr=>sr._id===serviceId)
+
+
     return (
         <div>
             {

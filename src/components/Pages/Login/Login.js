@@ -71,19 +71,19 @@ const HandeLogin=()=>{
 						<h1 className="text-2xl font-bold">Login to your account </h1>
 					</div>
 						<div className="my-3">
-							<label className="block text-md mb-2" htmlFor="email">Email</label>
+							<label className="block text-md mb-2" htmlhtmlFor="email">Email</label>
 							<input onBlur={handleUserEmail} className="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="email" placeholder="email"/>
         </div>
 					<div className="mt-5">
-						<label className="block text-md mb-2" htmlFor="password">Password</label>
+						<label className="block text-md mb-2" htmlhtmlFor="password">Password</label>
 						<input onBlur={handelUserPassword} className="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="password" placeholder="********"/>
         </div>
 						
 		<button type='submit' onClick={HandeLogin}
-		className="mt-4 mb-3 w-full bg-green-500 hover:bg-green-400 text-white py-2 rounded-md transition duration-100">Login now</button>
+		className="mt-4 mb-3 w-full bg-indigo-500 hover:bg-indigo-400 text-white py-2 rounded-md transition duration-100">Login now</button>
 							
 				</from>
-				<p className=' text-xl text-green-400 text-center'>-- or --</p>
+				<p className=' text-xl text-indigo-400 text-center'>-- or --</p>
 				<div className='mt-4 flex '>
 					 <img onClick={googleHandeLogin} className='zoom-image duration-500 w-12 mx-3' src={Googleicon} alt="" />
 					 <img onClick={githubHandeLogin} className='duration-500 w-12 h-12 mx-3 zoom-image' src={Githubicon} alt="" />
@@ -91,8 +91,8 @@ const HandeLogin=()=>{
 				</div>
 
 
-				<p className="mt-8"> Dont have an account? <NavLink className="cursor-pointer text-sm text-green-400" to='/register'> Join today</NavLink></p>
-				<p className="mt-8"> Forgot your password? <NavLink className="cursor-pointer text-sm text-green-400" to='/forgotpassword'> Reset Password</NavLink></p>
+				<p className="mt-8"> Dont have an account? <NavLink className="cursor-pointer text-sm text-indigo-400" to='/register'> Join today</NavLink></p>
+				<p className="mt-8"> Forgot your password? <NavLink className="cursor-pointer text-sm text-indigo-400" to='/forgotpassword'> Reset Password</NavLink></p>
 			</div>
 		</div>
 	</div>
