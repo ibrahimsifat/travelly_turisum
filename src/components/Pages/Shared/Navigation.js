@@ -115,7 +115,7 @@ const {user,logOut}=useAuth()
   <button
     className="focus:outline-none px-3 py-2  "
   >
-    <span className="">{user.photoURL?user.photoURL:userIcon}</span>
+    <span className="">{user.photoURL?<img src={user.photoURL} alt='...'/>:userIcon}</span>
   
   </button>
   <ul

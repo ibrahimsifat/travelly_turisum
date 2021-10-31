@@ -1,15 +1,15 @@
-# This is Dentist Website 
+# This is Tourism Website 
 
- [Live Site Link](https://dentiest-64126.web.app/).
+ [Live Site Link](https://tourismx-5af7a.web.app/).
 
 ## features
 
 * Have home page 
 * Have Services
-* With services details and add to cart
+* With book services details and add to cart
 * All products section 
-* Can see product details and add to cart
-* Shipping section 
 * About us page 
 * Sign In and Sign Up option 
-* Couldn't enter products details and services details    without Sign In
+* Couldn't enter services details,services details, add service, manage service, my booking without Sign In.
+* Can Add New Service.
+* Can Manage Service.
